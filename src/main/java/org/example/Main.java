@@ -9,6 +9,8 @@ public class Main {
         System.out.println("Hi Gaurav..");
 
         largestOutOfThree(8, 7, 4);
+
+        lowest(55, 7, 2);
     }
 
 
@@ -22,4 +24,14 @@ public class Main {
         System.out.println(largest);
 
     }
+
+    public static void lowest(int a, int b, int c){
+        int temp;
+        int largest;
+        temp= a<b?a:b;
+        largest= temp<c?temp:c;
+        System.out.println(largest);
+
+    }
+
 }
