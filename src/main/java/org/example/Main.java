@@ -7,6 +7,19 @@ public class Main {
         System.out.println("Hi Team..");
 
         System.out.println("Hi Gaurav..");
+
+        largestOutOfThree(8, 7, 4);
     }
 
+
+
+    public static void largestOutOfThree(int a, int b , int c){
+
+        int temp;
+        int largest;
+        temp= a>b?a:b;
+        largest= temp>c?temp:c;
+        System.out.println(largest);
+
+    }
 }
